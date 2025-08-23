@@ -39,11 +39,11 @@ Create a Resource Group - "Active-Directory-Lab"
 Create a Virtual Network and Subnet
 <img width="772" height="726" alt="image" src="https://github.com/user-attachments/assets/94aea8b5-fc70-4634-8816-ad503a62a557" />
 
-Create the Domain Controller VM (Windows Server 2022) named “DC-1”
-Username: labuser
-Password: Cyberlab123!
-After VM is created, set Domain Controller’s NIC Private IP address to be static
-Log into the VM and disable the Windows Firewall (for testing connectivity)
+Create the Domain Controller VM (Windows Server 2022) named “DC-1”<br />
+After VM is created, set Domain Controller’s NIC Private IP address to be static<br />
+
+<img width="754" height="826" alt="image" src="https://github.com/user-attachments/assets/aba121a7-c116-4e6b-a219-7e1afe31ddac" />
+
 
 Setup Client-1 in Azure
 —
