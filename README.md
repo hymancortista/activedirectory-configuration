@@ -46,12 +46,17 @@ After VM is created, set Domain Controller’s NIC Private IP address to be stat
 
 
 Setup Client-1 in Azure
-—
 Create the Client VM (Windows 10) named “Client-1”
-Username: labuser
-Password: Cyberlab123!
+
+<img width="634" height="771" alt="image" src="https://github.com/user-attachments/assets/e103237c-9e4d-4bea-bcad-05b6b2eb2b05" />
+
+
 Attach it to the same region and Virtual Network as DC-1
 After VM is created, set Client-1’s DNS settings to DC-1’s Private IP address
+
+<img width="544" height="703" alt="image" src="https://github.com/user-attachments/assets/4e9a77e0-aa69-444f-9433-703f481e7f5f" />
+
+
 From the Azure Portal, restart Client-1
 Login to Client-1
 Attempt to ping DC-1’s private IP address
