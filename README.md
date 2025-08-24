@@ -36,6 +36,8 @@ Create the Domain Controller VM (Windows Server 2022) named “DC-1”<br />
 After VM is created, set Domain Controller’s NIC Private IP address to be static<br />
 <img width="754" height="826" alt="image" src="https://github.com/user-attachments/assets/aba121a7-c116-4e6b-a219-7e1afe31ddac" />
 
+Set DC-1's NIC Private IP address to STATIC<br />
+<img width="570" height="735" alt="image" src="https://github.com/user-attachments/assets/9b23623a-f4e4-42a0-a243-1fdbe1e3a0d4" />
 
 Setup Client-1 in Azure
 Create the Client VM (Windows 10) named “Client-1”
@@ -47,12 +49,5 @@ After VM is created, set Client-1’s DNS settings to DC-1’s Private IP addres
 <img width="544" height="703" alt="image" src="https://github.com/user-attachments/assets/4e9a77e0-aa69-444f-9433-703f481e7f5f" />
 
 
-From the Azure Portal, restart Client-1
-Login to Client-1
-Attempt to ping DC-1’s private IP address
-Ensure the ping succeeded
-From Client-1, open PowerShell and run ipconfig /all
-The output for the DNS settings should show DC-1’s private IP Address
-
 Restart Client-1 from the Azure Portal, login and attempt to DC-1's private IP Address<br/>
-If the ping succeeded, you have successfully 
+If the ping succeeded, you have successfully configured Client-1 VM to use the DC as its DNS server.
