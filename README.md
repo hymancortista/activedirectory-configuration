@@ -18,7 +18,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>Deployment and Configuration Steps</h2>
+<h2>Configuration Steps</h2>
 
 In Microsoft Azure, setup a Domain Controller<br />
 Create a Resource Group - "Active-Directory-Lab"
@@ -40,6 +40,7 @@ Create the Client VM (Windows 10) named “Client-1”
 
 
 Attach it to the same region and Virtual Network as DC-1
+
 After VM is created, set Client-1’s DNS settings to DC-1’s Private IP address
 <img width="544" height="703" alt="image" src="https://github.com/user-attachments/assets/4e9a77e0-aa69-444f-9433-703f481e7f5f" />
 
