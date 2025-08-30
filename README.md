@@ -3,7 +3,7 @@
 </p>
 
 <h1>Configuring Active Directory within Azure VMs</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+This tutorial outlines the configuration of the different Virtual Machines necessary for an Active Directory<br />
 
 
 <h2>Environments and Technologies Used</h2>
